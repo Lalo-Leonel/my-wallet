@@ -1,0 +1,57 @@
+.box {
+    margin: 2px;
+}
+.card {
+    background-color: whitesmoke;
+}
+.text {
+    color: black;
+    font-size: 40px;
+}
+.textnumber{
+    color: midnightblue;
+    font-size: 50px;
+}
+.btn{
+    background-color: midnightblue;
+    color: white;
+    padding: 10px 32px;
+}
+.btn:hover, .btn_guardar:hover{
+    background-color: white;
+    color: midnightblue;
+    font-weight: bold;
+    border: 2px solid midnightblue;
+}
+.box_modal{
+    background-color: white;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400;
+  border: 2px solid midnightblue;
+  padding: 25px;
+}
+.select{
+    width: 150px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.btn_cancelar{
+    background-color: red;
+    color: white;
+    margin-right: 5px;
+}
+.btn_guardar{
+    background-color: blue;
+    color: white;
+}
+.btn_cancelar:hover{
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    border: 2px solid red;
+}
+
